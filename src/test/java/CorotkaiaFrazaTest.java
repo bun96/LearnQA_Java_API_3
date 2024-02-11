@@ -3,7 +3,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CheckLengthOfPhrase {
+public class CorotkaiaFrazaTest {
 
     @ParameterizedTest
     @ValueSource (strings = {"HelloSomeBody", "HelloSomeBodyToday"}) // HelloSomeBody are 13 symbols and HelloSomeBodyToday are 17 symbols
